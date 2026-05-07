@@ -1,6 +1,6 @@
 import os
 
-BOT_TOKEN = os.environ.get("8218090305:AAHCU7u2w4PzWt2jRzwht7OUZm2dMl2i4MI")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8218090305:AACHU7u2w4PzWt2jRzwht70UZm2dM12i4MI")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "5002844213"))
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "nnytt3")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "bee_honey_money_bot")
